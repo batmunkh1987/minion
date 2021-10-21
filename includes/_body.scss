@@ -1,0 +1,69 @@
+div.face{
+    position: absolute;
+    .eyeBlack  {
+        position: absolute;
+        width: 200px;
+        height: 210px;
+        border-radius: 50%;
+        background-color: $eyeWhite;
+        top: 360px;
+        left: 590px;
+    }
+    .eyeWhite{
+        position: absolute;
+        width: 110px;
+        height: 115px;
+        border-radius: 50%;
+        background-color: black;
+        top: 415px;
+        left: 650px;
+    }
+    .eyeDot{
+        position: absolute;
+        width: 15px;
+        height:15px;
+        border-radius: 50%;
+        background-color: $eyeWhite;
+        top: 440px;
+        left: 720px;
+    }
+    .mounth{
+        position: absolute;
+        width: 150px;
+        height:70px;
+        border-radius: 25px 25px 40px 40px;
+        background-color: black;
+        top: 640px;
+        left: 620px;
+    }
+    .tooth1{
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-top: 20px solid $eyeWhite;
+        top: 640px;
+        left: 645px;
+    }
+    .tooth2{
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-top: 20px solid $eyeWhite;
+        top: 640px;
+        left: 680px;
+    }
+    .tooth3{
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-top: 20px solid $eyeWhite;
+        top: 640px;
+        left: 715px;
+    }
+}

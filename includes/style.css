@@ -1,0 +1,138 @@
+div.face {
+  position: absolute;
+}
+
+div.face .eyeBlack {
+  position: absolute;
+  width: 200px;
+  height: 210px;
+  border-radius: 50%;
+  background-color: #e3dac9;
+  top: 360px;
+  left: 590px;
+}
+
+div.face .eyeWhite {
+  position: absolute;
+  width: 110px;
+  height: 115px;
+  border-radius: 50%;
+  background-color: black;
+  top: 415px;
+  left: 650px;
+}
+
+div.face .eyeDot {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #e3dac9;
+  top: 440px;
+  left: 720px;
+}
+
+div.face .mounth {
+  position: absolute;
+  width: 150px;
+  height: 70px;
+  border-radius: 25px 25px 40px 40px;
+  background-color: black;
+  top: 640px;
+  left: 620px;
+}
+
+div.face .tooth1 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 20px solid #e3dac9;
+  top: 640px;
+  left: 645px;
+}
+
+div.face .tooth2 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 20px solid #e3dac9;
+  top: 640px;
+  left: 680px;
+}
+
+div.face .tooth3 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 20px solid #e3dac9;
+  top: 640px;
+  left: 715px;
+}
+
+div.ear1 {
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  top: 200px;
+  background-color: #32cd32;
+  left: 500px;
+}
+
+div.ear2 {
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  top: 200px;
+  background-color: #32cd32;
+  left: 800px;
+}
+
+div.earBot1 {
+  background-color: #32cd32;
+  position: absolute;
+  height: 100px;
+  width: 40px;
+  top: 220px;
+  left: 540px;
+  -webkit-transform: rotate(-35deg);
+          transform: rotate(-35deg);
+}
+
+div.earBot2 {
+  background-color: #32cd32;
+  position: absolute;
+  height: 100px;
+  width: 40px;
+  top: 220px;
+  left: 785px;
+  -webkit-transform: rotate(35deg);
+          transform: rotate(35deg);
+}
+
+div.head {
+  background-color: #32cd32;
+  position: absolute;
+  height: 500px;
+  width: 350px;
+  border-radius: 190px 190px 0 0;
+  top: 280px;
+  left: 510px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #00b7eb;
+}
+/*# sourceMappingURL=style.css.map */
